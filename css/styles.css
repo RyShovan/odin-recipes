@@ -1,7 +1,28 @@
 /* body {
     background-color: aquamarine;
 } */
+
+@font-face{font-family:"Norse"; src:url(../assets/Norse-Bold-0e89cea179e25db6811101e128584a98a5dc95ecd82cdce22fa3d9750d62a2ee.otf)}
+
 .recipe-description {
     font-size: 1.15rem;
     /* color: darkred; */
+}
+
+.odin-style {
+    font-family: "Norse";
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  /* flex: 33.33%; */
+  padding: 5px;
+}
+
+.align-center {
+    margin: auto;
+    display: block;
 }
